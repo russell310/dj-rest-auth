@@ -31,9 +31,9 @@ setup(
         'Django>=3.2',
         'djangorestframework>=3.13.0',
     ],
-    extras_require={
-        'with_social': ['django-allauth>=0.56.0,<0.58.0'],
-    },
+    # extras_require={
+    #     'with_social': ['django-allauth>=0.56.0,<0.58.0'],
+    # },
     tests_require=[
         'coveralls>=1.11.1',
         'django-allauth>=0.57.0',
